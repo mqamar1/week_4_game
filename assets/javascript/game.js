@@ -64,7 +64,10 @@ $("#currentTotal").text(totalNumber);
 $("#numWins").text(crystalWins);
 $("#numLoss").text(crystalLoss);
 
-
+function reset1(){
+  $("#currentTotal").reset()
+  console.log("hi")
+}
 
 
 });
