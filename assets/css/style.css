@@ -7,12 +7,13 @@ body{
 .LetsPLay{
   font-size: 50px;
   color:blue;
-  padding-left: 370px;
+  /* padding-left: 370px; */
 
 }
 
 h3{
-  padding-left: 401px;
+  /* padding-left: 401px; */
+
 }
 
 .jumbotron.header{
