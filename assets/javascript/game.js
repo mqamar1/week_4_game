@@ -34,6 +34,7 @@ $(document).ready(function() {
 
   for (var i = 1; i < assignCrystals.length + 1; i++) {
     $("img").addClass("crystalImage");
+    //$(".crystalImage").attr("value", crys1)
 
   }
 
@@ -47,6 +48,10 @@ $(document).ready(function() {
     if (totalNumber === yourNumber) {
       alert("You Win!")
       crystalWins++;
+      totalNumber = 0;
+
+        //console.log(reset)
+
 
 
 
@@ -62,10 +67,7 @@ $(document).ready(function() {
     $("#numWins").text(crystalWins);
     $("#numLoss").text(crystalLoss);
 
-    function reset1() {
-      $("#currentTotal").reset()
-      console.log("hi")
-    }
+
 
 
   });
